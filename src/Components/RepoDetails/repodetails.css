@@ -10,7 +10,7 @@
 }
 
 .details-wrapper h3,
-.created-time p {
+.details-wrapper p {
   margin-bottom: 0.5rem;
 }
 
@@ -50,9 +50,4 @@
 
 .github-link a:hover {
   text-decoration: underline;
-}
-
-.languages p {
-  display: inline;
-  margin-right: 2rem;
 }

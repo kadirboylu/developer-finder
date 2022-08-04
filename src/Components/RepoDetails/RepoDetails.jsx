@@ -90,7 +90,7 @@ const RepoDetails = ({ username, repo }) => {
           {Object.keys(lang).map((key, index) => {
             return (
               <p key={index}>
-                <span>{key}: </span>
+                • <span>{key}: </span>
                 {(
                   (lang[key] * 100) /
                   Object.values(lang).reduce((acc, val) => (acc += val))
