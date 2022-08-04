@@ -1,0 +1,81 @@
+.user-profiles {
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  list-style-type: none;
+  user-select: none;
+}
+
+.card-container {
+  margin: 0.25rem 0.1rem;
+  padding: 1rem;
+  background-image: linear-gradient(rgb(200, 212, 230), rgb(235, 222, 222));
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  transition: all 0.5s;
+}
+
+.card-container:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.img-container {
+  width: 100%;
+  text-align: center;
+}
+
+.img-container img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.info h3 {
+  margin: 1rem;
+}
+
+@media (max-width: 1500px) {
+  .user-profiles {
+    width: 80%;
+  }
+  .card-container {
+    width: 30%;
+  }
+}
+
+@media (max-width: 900px) {
+  .user-profiles {
+    width: 90%;
+  }
+  .card-container {
+    width: 35%;
+  }
+}
+
+@media (max-width: 600px) {
+  .user-profiles {
+    width: 100%;
+  }
+  .card-container {
+    width: 45%;
+  }
+  .info h3 {
+    font-size: 12px;
+  }
+}

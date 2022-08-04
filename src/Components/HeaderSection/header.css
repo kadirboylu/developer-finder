@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+
+.header {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgb(200, 212, 230), rgb(235, 222, 222));
+  width: 45%;
+  margin: 1rem auto;
+  border-radius: 10px;
+  user-select: none;
+}
+
+h1 {
+  margin: 1rem;
+  color: black;
+  font-family: "Carter One", cursive;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-input {
+  width: 60%;
+  height: 25px;
+  margin-right: 10px;
+  padding: 0.75rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.text-input:focus {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media (max-width: 1500px) {
+  .header {
+    width: 75%;
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    width: 85%;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    width: 95%;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+}

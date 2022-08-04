@@ -1,0 +1,65 @@
+.repos-header {
+  width: 95%;
+  margin: auto;
+  padding-bottom: 0.5rem;
+}
+
+.repositories {
+  margin: 0 auto 1rem auto;
+  width: 95%;
+  height: 500px;
+  overflow-y: scroll;
+  border: 2px solid white;
+}
+
+.repository-wrapper {
+  border-top: 2px solid white;
+}
+
+.repository-wrapper:first-child {
+  border-top: none;
+}
+
+.repository {
+  text-align: left;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.repo-description,
+.repo-name {
+  padding: 0.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.repo-description > span {
+  font-weight: bolder;
+}
+
+.repo-info {
+  width: 90%;
+}
+
+.repo-details {
+  width: 100%;
+}
+
+.repo-btn button {
+  border-radius: 50%;
+  background-color: rgb(160, 190, 240);
+  transition: all 0.2s;
+}
+
+.repo-btn button:hover {
+  background-color: rgba(160, 189, 240, 0.8);
+  box-shadow: none;
+}
+
+.repo-btn button:active {
+  color: transparent;
+  transform: none;
+}

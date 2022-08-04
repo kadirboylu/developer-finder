@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Scrollbar CSS ===== */
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(rgb(179, 205, 243), rgb(236, 185, 185));
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+
+:root {
+  --h1: 36px;
+  --h2: 20px;
+  --h3: 16px;
+  --h4: 12px;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  user-select: none;
+  background-color: #eee;
+}
+
+h1 {
+  font-size: var(--h1);
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+h3 {
+  font-size: var(--h3);
+}
+
+h4 {
+  font-size: var(--h4);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  padding: 0 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 25px;
+  background-color: black;
+  color: white;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button:active {
+  transform: translateY(1px);
+}

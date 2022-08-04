@@ -1,0 +1,58 @@
+.details-wrapper {
+  padding: 0 0rem 0.75rem 0.75rem;
+  text-align: left;
+  border-top: 1px solid white;
+}
+
+.details-wrapper li {
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+}
+
+.details-wrapper h3,
+.created-time p {
+  margin-bottom: 0.5rem;
+}
+
+.details-wrapper span {
+  font-weight: bolder;
+}
+
+.clone-project code {
+  background-color: #eee;
+  width: 95%;
+  display: block;
+  border-radius: 5px;
+  margin: 0.5rem 0 1rem 0;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clone {
+  padding: 0.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  user-select: text;
+}
+
+.clone-project button {
+  background-color: rgb(125, 125, 125);
+  width: 60px;
+}
+
+.clone-project button:hover {
+  background-color: rgb(110, 110, 110);
+  box-shadow: none;
+}
+
+.github-link a:hover {
+  text-decoration: underline;
+}
+
+.languages p {
+  display: inline;
+  margin-right: 2rem;
+}
