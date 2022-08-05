@@ -1,0 +1,56 @@
+.languages-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+}
+
+.bar {
+  width: 100%;
+  background-color: #eee;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.progress {
+  background-color: rgb(160, 190, 240);
+  border-radius: 5px;
+}
+
+.progress p {
+  margin-left: 5px;
+  padding-left: 100%;
+  font-weight: bolder;
+  white-space: nowrap;
+}
+
+.repo-infos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.public-repos,
+.size {
+  margin: 1rem;
+}
+
+@media (max-width: 600px) {
+  .repo-infos {
+    flex-direction: column;
+  }
+
+  .public-repos,
+  .size {
+    margin: 0.5rem 0 0.5rem 0;
+  }
+}

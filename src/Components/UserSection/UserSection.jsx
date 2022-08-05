@@ -28,6 +28,7 @@ import "./userSection.css";
 
 // COMPONENTS
 import Repositories from "../RepositorySection/Repositories";
+import Languages from "../Languages/Languages";
 
 const UserSection = () => {
   const [user, setUser] = useState("");
@@ -112,6 +113,9 @@ const UserSection = () => {
             {/* ---- LOCATION ---- */}
             {user.location !== null && <p>{user.location} </p>}
           </div>
+        </div>
+        <div className="lang-section">
+          <Languages username={username} />
         </div>
         <div className="repos">
           <Repositories username={username} />
