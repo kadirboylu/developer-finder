@@ -85,7 +85,7 @@ const RepoDetails = ({ username, repo }) => {
           </a>
         </li>
         {/* ---- LANGUAGES ---- */}
-        <li className="languages">
+        <li className="repo-languages">
           {Object.values(lang).length > 0 && <h3>Languages</h3>}
           {Object.keys(lang).map((key, index) => {
             return (
